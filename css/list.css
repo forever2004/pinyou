@@ -1,0 +1,169 @@
+.nav {
+  overflow: hidden;
+}
+
+.sk_list {
+  float: left;
+}
+
+.sk_con {
+  float: left;
+}
+
+.sk_list ul li {
+  float: left;
+}
+
+.sk_list ul li a {
+  display: block;
+  font-size: 16px;
+  padding: 0 30px;
+  line-height: 47px;
+  font-weight: 700;
+
+}
+
+.sk_con ul li {
+  float: left;
+}
+
+.sk_con ul li a {
+  display: block;
+  line-height: 49px;
+  font-size: 14px;
+  padding: 0 25px;
+}
+
+.sk_con ul li:last-child a::after {
+  content: "\e900";
+  font-family: "icomoon";
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.sk_bd ul {
+  width: 1202px;
+  overflow: hidden;
+}
+
+.sk_bd ul li {
+  float: left;
+  width: 290px;
+  height: 458px;
+}
+
+.sk_bd ul li {
+  margin-right: 14px;
+  border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+  border: 1px solid #cc0000;
+}
+
+.telephone {
+
+  height: 275px;
+  margin-bottom: 30px;
+}
+
+.sk_bd ul li i {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+  margin-bottom: 16px;
+  padding-left: 12px;
+}
+
+.sk_bd ul li h3 {
+  position: relative;
+  float: left;
+  font-size: 20px;
+  font-weight: 400;
+  color: #cc0000;
+  padding-left: 24px;
+}
+
+.price h3::before {
+  position: absolute;
+  top: 3px;
+  left: 12px;
+  content: "\e905";
+  font-family: "icomoon";
+  color: #cc0000;
+  font-size: 16px;
+}
+
+.price h4 {
+  position: relative;
+  float: left;
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  padding: 5px 26px 0;
+  text-decoration: line-through;
+}
+
+.price h4::before {
+  position: absolute;
+  left: 12px;
+  top: 5px;
+  content: "\e905";
+  font-family: "icomoon";
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #999999;
+
+}
+
+.sales {
+  height: 28px;
+  line-height: 28px;
+}
+
+.sales em {
+  display: block;
+  float: left;
+  font-size: 12px;
+  padding: 0 12px;
+}
+
+.bar {
+  float: left;
+  width: 120px;
+  background-color: #ffffff;
+  border: 1px solid #cc0000;
+  border-radius: 6px;
+  margin-top: 8px;
+}
+
+.sales_scale {
+  width: 87%;
+  height: 12px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: #cc0000;
+
+}
+
+.purchase {
+  display: block;
+  height: 43px;
+  background-color: #cc0000;
+  margin-top: 5px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 43px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.purchase:hover {
+  color: #ffffff;
+}
